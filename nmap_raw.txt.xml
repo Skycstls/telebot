@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Mon Nov 18 00:44:01 2024 as: nmap -sV -p- -A -oA nmap_raw.txt ikea.com -->
+<nmaprun scanner="nmap" args="nmap -sV -p- -A -oA nmap_raw.txt ikea.com" start="1731887041" startstr="Mon Nov 18 00:44:01 2024" version="7.80" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
