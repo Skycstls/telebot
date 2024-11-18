@@ -12,7 +12,7 @@ dig +short AAAA $domain > AAAA.txt
 dig +short PTR $domain > PTR.txt
 dig +short SPF $domain > SPF.txt
 
-sudo nmap -sV -p- -A $domain -oA nmap_raw.txt
+#sudo nmap -sV -p- -A $domain -oA nmap_raw.txt
 
 cero $domain > cero_raw.txt
 
